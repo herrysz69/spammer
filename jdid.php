@@ -27,7 +27,7 @@ echo"
              ║  Creator By : Herry ║
              ╚═════════════════════╝\nInput : ";
 echo "Nomor? (ex : 8xxxx)\nInput : ";
-$Nomor Contact = trim(fgets(STDIN));
+$Nomor = trim(fgets(STDIN));
 echo "Jumlah?\nInput : ";
 $jumlah Spam = trim(fgets(STDIN));                 
 echo "Jeda? 0-9999999999 (ex:0)\nInput : ";
