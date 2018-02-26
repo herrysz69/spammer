@@ -32,6 +32,6 @@ echo "Jumlah?\nInput : ";
 $jumlah = trim(fgets(STDIN));
 echo "Jeda? 0-99999 (ex:1)\nInput : ";
 $jeda = trim(fgets(STDIN));
-$execute = jdidbom($Nomor, $Jumlah, $Jeda);
+$execute = jdidbom($nomor, $jumlah, $jeda);
 print $execute;
 ?>
