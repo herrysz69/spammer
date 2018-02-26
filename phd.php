@@ -26,12 +26,12 @@ echo "
              ╔══╚═══════════════╝══╗
              ║  Creator By : Herry ║
              ╚═════════════════════╝\n\nInput : ";
-echo "Nomor? (contoh : 8xxxx)\nInput : ";
+echo "Nomor? (Contoh : 628xxxx)\nInput : ";
 $nomor = trim(fgets(STDIN));
 echo "Jumlah?\nInput : ";
 $jumlah = trim(fgets(STDIN));
 echo "Jeda? 0-99999 (ex:1)\nInput : ";
 $jeda = trim(fgets(STDIN));
-$execute = jdidbom($nomor, $jumlah, $jeda);
+$execute = phd($nomor, $jumlah, $jeda);
 print $execute;
 ?>
