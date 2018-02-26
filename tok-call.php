@@ -25,13 +25,13 @@ echo "
                 ║ Spam  TokCall ║
              ╔══╚═══════════════╝══╗
              ║  Creator By : Herry ║
-             ╚═════════════════════╝\nInput : ";
-echo "Nomor? (ex : 8xxxx)\nInput : ";
-$Nomor = trim(fgets(STDIN));
+             ╚═════════════════════╝\n\nInput : ";
+echo "Nomor? (contoh : 8xxxx)\nInput : ";
+$nomor = trim(fgets(STDIN));
 echo "Jumlah?\nInput : ";
-$jumlah = trim(fgets(STDIN));                 
-echo "Jeda? 0-9999999999 (ex:0)\nInput : ";
+$jumlah = trim(fgets(STDIN));
+echo "Jeda? 0-99999 (ex:1)\nInput : ";
 $jeda = trim(fgets(STDIN));
-$execute = jdidbom($Nomor, $jumlah, $jeda);
+$execute = jdidbom($Nomor, $Jumlah, $Jeda);
 print $execute;
 ?>
