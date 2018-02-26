@@ -26,12 +26,12 @@ echo "
              ╔══╚═══════════════╝══╗
              ║  Creator By : Herry ║
              ╚═════════════════════╝\n\nInput : ";
-echo "Nomor? (contoh : 8xxxx)\nInput : ";
+echo "Nomor? (Contoh : 08xxxx) (cuma 3x/jam)\nInput : ";
 $nomor = trim(fgets(STDIN));
-echo "Jumlah?\nInput : ";
+echo "1x persubmit\nInput : ";
 $jumlah = trim(fgets(STDIN));
-echo "Jeda? 0-99999 (ex:1)\nInput : ";
+echo "Jeda? 0-9999999999 (ex:0)\nInput : ";
 $jeda = trim(fgets(STDIN));
-$execute = jdidbom($nomor, $jumlah, $jeda);
+$execute = tokcall($nomor, $jumlah, $jeda);
 print $execute;
 ?>
